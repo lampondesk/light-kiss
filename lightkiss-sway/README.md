@@ -23,7 +23,7 @@ swaybg (?) | r | http | sway
 expat | r | kiss/repo/extra | wayland
 libffi | r | kiss/repo/extra | wayland
 libxml2 | r | community/community | wayland
-- | - | - | wayland-protocols
+NULL | NULL | NULL | wayland-protocols
 edudev | r | kiss/repo/extra | wlroots
 libdrm | r | kiss/repo/extra | wlroots
 libxkbcommon | r | kiss/repo/xorg | wlroots
@@ -41,4 +41,4 @@ llvm __(!!)__ | r | kiss/repo/extra | mesa-wayland-only
 m4 | c | kiss/repo/core | mesa-wayland-only
 python | c | kiss/repo/extra | mesa-wayland-only
 zlib | r | kiss/repo/core | mesa-wayland-only
-- | - | - | swaybg
+NULL | NULL | NULL | swaybg
