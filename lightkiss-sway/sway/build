@@ -1,0 +1,19 @@
+#!/bin/sh -e
+
+# This script is based on the build script created by sdsddsd1.
+
+:> nostrip
+
+#GCC10 fix
+#export CFLAGS="$CFLAGS -Wno-error -fcommon"
+
+export DESTDIR="$1"
+
+meson \
+    --prefix=/usr \
+    -Dexamples=false \
+    -Dxwayland=enabled \
+    . build
+
+ninja -C build
+ninja -C build install

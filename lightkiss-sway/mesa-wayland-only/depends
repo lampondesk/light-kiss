@@ -1,0 +1,13 @@
+bison        make
+expat
+flex         make
+libdrm
+libelf
+linux-headers make
+llvm
+m4            make
+meson         make
+python        make
+wayland
+wayland-protocols
+zlib
