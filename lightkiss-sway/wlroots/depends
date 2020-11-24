@@ -3,7 +3,7 @@ flex make
 libinput
 libxkbcommon
 linux-headers make
-mesa 
+mesa-wayland-only 
 meson make
 pixman
 samurai make
