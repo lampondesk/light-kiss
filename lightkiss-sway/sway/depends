@@ -7,7 +7,6 @@ meson make
 pango
 pcre
 samurai make
-scdoc
 swaybg
 wayland
 wayland-protocols make
