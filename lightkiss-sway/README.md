@@ -12,8 +12,8 @@ wayland | r | http | sway
 wayland-protocols | c | http | sway
 pcre | r | community/community | sway
 json-c | r | community/community | sway
-pango | r | kiss/repo/extra | sway
-cairo | r | kiss/repo/extra | sway
+pango (wayland-only) | r | http | sway
+cairo (wayland only) | r | http | sway
 gdk-pixbuf | r | kiss/repo/extra | sway
 wlroots | r | http | sway
 flex | c | kiss/repo/core | sway
@@ -29,16 +29,21 @@ libdrm | r | kiss/repo/extra | wlroots
 libxkbcommon | r | kiss/repo/xorg | wlroots
 libinput | r | kiss/repo/extra | wlroots
 linux-headers | c | kiss/repo/core | wlroots
-mesa-wayland-only | r | http | wlroots
+mesa (wayland only) | r | http | wlroots
 pixman | r | kiss/repo/xorg | wlroots
 xkeyboard-config | r | kiss/repo/xorg | wlroots
-bison | c | kiss/repo/core | mesa-wayland-only
-expat | r | kiss/repo/extra | mesa-wayland-only
-libdrm | r | kiss/repo/extra | mesa-wayland-only
-libelf | r | kiss/repo/extra | mesa-wayland-only
-linux-headers | c | kiss/repo/core | mesa-wayland-only
-llvm __(!!)__ | r | kiss/repo/extra | mesa-wayland-only
-m4 | c | kiss/repo/core | mesa-wayland-only
-python | c | kiss/repo/extra | mesa-wayland-only
-zlib | r | kiss/repo/core | mesa-wayland-only
+bison | c | kiss/repo/core | mesa (wayland only)
+expat | r | kiss/repo/extra | mesa (wayland only)
+libdrm | r | kiss/repo/extra | mesa (wayland only)
+libelf | r | kiss/repo/extra | mesa (wayland only)
+libglvnd | r | http | mesa (wayland only)
+linux-headers | c | kiss/repo/core | mesa (wayland only)
+llvm __(!!)__ | r | kiss/repo/extra | mesa (wayland only)
+m4 | c | kiss/repo/core | mesa (wayland only)
+python | c | kiss/repo/extra | mesa (wayland only)
+zlib | r | kiss/repo/core | mesa (wayland only)
+libXext | r | kiss/repo/xorg | libglvnd
+libX11 | c | kiss/repo/xorg | libglvnd
+xorgproto | c | kiss/repo/xorg | libglvnd
+python | c | kiss/repo/extra | libglvnd
 NULL | NULL | NULL | swaybg
