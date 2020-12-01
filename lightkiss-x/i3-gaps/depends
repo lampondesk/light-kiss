@@ -4,3 +4,4 @@ libxkbcommon
 pango
 xcb-util-cursor
 xcb-util-keysyms
+xcb-util-wm
