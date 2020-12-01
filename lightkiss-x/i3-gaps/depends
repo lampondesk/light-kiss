@@ -1,2 +1,6 @@
 libstartup-notification
+libxcb
+libxkbcommon
+pango
 xcb-util-cursor
+xcb-util-keysyms
